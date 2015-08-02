@@ -1,0 +1,22 @@
+str = "abcasbdd"
+
+
+def check(str)
+k="false"
+    
+for i in 0..str.length
+if (str[i] == "a"&&i<str.length-2)
+    if str[i+3] =="b"
+        k="true"
+    else
+    end
+else
+    
+end
+
+end
+return k
+
+end
+
+check(str)
